@@ -34,7 +34,7 @@ export type LiquidationMapRouteOptions = {
   authorize?: (c: Context) => boolean | Promise<boolean>;
 };
 
-export function createLiquidationMapRoute(o: LiquidationMapRouteOptions) {
+export function createLiquidationMapRoute(o: LiquidationMapRouteOptions): Hono {
   const memo = o.cache ?? createCache();
   const client = createHyperliquidClient({ fetch: o.fetch, cache: false });
   const sample = o.partSize * o.parts;

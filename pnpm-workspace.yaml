@@ -3,5 +3,5 @@ blockExoticSubdeps: false
 
 allowBuilds:
   esbuild: true
-  "@mutexa/liq-math@git+https://github.com/mutexa-labs/liq-math.git#05aa981d69192d4ff6da201b98b2dcdc7388fc87": true
-  "@mutexa/venue-adapters@git+https://github.com/mutexa-labs/venue-adapters.git#0bf13dfc5249d0fefd8d06b011dd5817dc5a6fe3": true
+  "@mutexa/venue-adapters@https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393": true
+  "@mutexa/liq-math@https://codeload.github.com/mutexa-labs/liq-math/tar.gz/05aa981d69192d4ff6da201b98b2dcdc7388fc87": true

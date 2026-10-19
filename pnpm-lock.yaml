@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@mutexa/venue-adapters':
-        specifier: github:mutexa-labs/venue-adapters#v0.1.0
-        version: git+https://github.com/mutexa-labs/venue-adapters.git#0bf13dfc5249d0fefd8d06b011dd5817dc5a6fe3(hono@4.13.13)(typescript@5.9.3)
+        specifier: github:mutexa-labs/venue-adapters#v0.1.1
+        version: https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393(hono@4.13.13)(typescript@5.9.3)
     devDependencies:
       '@types/node':
         specifier: ^22.19.0
@@ -364,14 +364,14 @@ packages:
   '@jridgewell/trace-mapping@0.3.31':
     resolution: {integrity: sha512-zzNR+SdQSDJzc8joaeP8QQoCQr8NuYx2dIIytl1QeBEZHJ9uW6hebsrYgbz8hJwUQao3TWCMtmfV8Nu1twOLAw==}
 
-  '@mutexa/liq-math@git+https://github.com/mutexa-labs/liq-math.git#05aa981d69192d4ff6da201b98b2dcdc7388fc87':
-    resolution: {commit: 05aa981d69192d4ff6da201b98b2dcdc7388fc87, repo: https://github.com/mutexa-labs/liq-math.git, type: git}
+  '@mutexa/liq-math@https://codeload.github.com/mutexa-labs/liq-math/tar.gz/05aa981d69192d4ff6da201b98b2dcdc7388fc87':
+    resolution: {gitHosted: true, integrity: sha512-r/Wlwqh4Y99nK2o5S6Q2mcHw7PTsDODyTBkAV2tzQBKggV1eUHL4FQTqVQSplWwwkZvv+6Y18npbeDBIYZ1g7Q==, tarball: https://codeload.github.com/mutexa-labs/liq-math/tar.gz/05aa981d69192d4ff6da201b98b2dcdc7388fc87}
     version: 0.1.0
     engines: {node: '>=22'}
 
-  '@mutexa/venue-adapters@git+https://github.com/mutexa-labs/venue-adapters.git#0bf13dfc5249d0fefd8d06b011dd5817dc5a6fe3':
-    resolution: {commit: 0bf13dfc5249d0fefd8d06b011dd5817dc5a6fe3, repo: https://github.com/mutexa-labs/venue-adapters.git, type: git}
-    version: 0.1.0
+  '@mutexa/venue-adapters@https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393':
+    resolution: {gitHosted: true, tarball: https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393}
+    version: 0.1.1
     engines: {node: '>=22'}
     peerDependencies:
       hono: ^4.6.0
@@ -1183,11 +1183,11 @@ snapshots:
       '@jridgewell/resolve-uri': 3.1.2
       '@jridgewell/sourcemap-codec': 1.6.0
 
-  '@mutexa/liq-math@git+https://github.com/mutexa-labs/liq-math.git#05aa981d69192d4ff6da201b98b2dcdc7388fc87': {}
+  '@mutexa/liq-math@https://codeload.github.com/mutexa-labs/liq-math/tar.gz/05aa981d69192d4ff6da201b98b2dcdc7388fc87': {}
 
-  '@mutexa/venue-adapters@git+https://github.com/mutexa-labs/venue-adapters.git#0bf13dfc5249d0fefd8d06b011dd5817dc5a6fe3(hono@4.13.13)(typescript@5.9.3)':
+  '@mutexa/venue-adapters@https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393(hono@4.13.13)(typescript@5.9.3)':
     dependencies:
-      '@mutexa/liq-math': git+https://github.com/mutexa-labs/liq-math.git#05aa981d69192d4ff6da201b98b2dcdc7388fc87
+      '@mutexa/liq-math': https://codeload.github.com/mutexa-labs/liq-math/tar.gz/05aa981d69192d4ff6da201b98b2dcdc7388fc87
       viem: 2.57.7(typescript@5.9.3)
     optionalDependencies:
       hono: 4.13.13

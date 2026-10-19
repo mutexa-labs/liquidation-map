@@ -1,6 +1,6 @@
 {
   "name": "@mutexa/liquidation-map",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Public liquidation levels of Hyperliquid's largest accounts: a streaming leaderboard ranker, a budgeted position sampler and a bucketed heatmap whose totals always reconcile, as a library, a Hono route and a CLI.",
   "license": "MIT",
   "type": "module",
@@ -57,7 +57,7 @@
     "record": "tsx scripts/record.ts"
   },
   "dependencies": {
-    "@mutexa/venue-adapters": "github:mutexa-labs/venue-adapters#v0.1.0"
+    "@mutexa/venue-adapters": "github:mutexa-labs/venue-adapters#v0.1.1"
   },
   "peerDependencies": {
     "hono": "^4.6.0"
