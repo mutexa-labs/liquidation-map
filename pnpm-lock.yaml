@@ -10,14 +10,14 @@ importers:
     dependencies:
       '@mutexa/venue-adapters':
         specifier: github:mutexa-labs/venue-adapters#v0.1.1
-        version: https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393(hono@4.13.13)(typescript@5.9.3)
+        version: https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393(hono@4.13.16)(typescript@5.9.3)
     devDependencies:
       '@types/node':
         specifier: ^22.19.0
         version: 22.20.5
       hono:
-        specifier: ^4.11.1
-        version: 4.13.13
+        specifier: ^4.13.16
+        version: 4.13.16
       prettier:
         specifier: ^3.9.8
         version: 3.9.10
@@ -370,7 +370,7 @@ packages:
     engines: {node: '>=22'}
 
   '@mutexa/venue-adapters@https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393':
-    resolution: {gitHosted: true, tarball: https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393}
+    resolution: {gitHosted: true, integrity: sha512-LAxG7Mk2VNpQvtuM9LkCwKeajSLEHUvLVWcrIri8G9XWp0SRaC58fQia5y0b9vji2S7wvoIOsJrP28J0EH9hUg==, tarball: https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393}
     version: 0.1.1
     engines: {node: '>=22'}
     peerDependencies:
@@ -695,8 +695,8 @@ packages:
     engines: {node: ^8.16.0 || ^10.6.0 || >=11.0.0}
     os: [darwin]
 
-  hono@4.13.13:
-    resolution: {integrity: sha512-CQ46U0ZkAGmbT/4UxdzzGJpacP2IeKgY4a5/tOI9AABbpOMfK739wfDXmv1usCk+3RkKj1hQy4/fjhiwa2xlrA==}
+  hono@4.13.16:
+    resolution: {integrity: sha512-AOLOEhvrV+iH92xXCnFr/5+3KjPKcI3xP63XJtX5spAnkznPdHijlIsUTpi7/9EhWqrTCekw5c5zh1K+YsVw7A==}
     engines: {node: '>=16.9.0'}
 
   isows@1.0.7:
@@ -1185,12 +1185,12 @@ snapshots:
 
   '@mutexa/liq-math@https://codeload.github.com/mutexa-labs/liq-math/tar.gz/05aa981d69192d4ff6da201b98b2dcdc7388fc87': {}
 
-  '@mutexa/venue-adapters@https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393(hono@4.13.13)(typescript@5.9.3)':
+  '@mutexa/venue-adapters@https://codeload.github.com/mutexa-labs/venue-adapters/tar.gz/bce57f07ecb5fb0f5abd645ee1dbb4afdaa3c393(hono@4.13.16)(typescript@5.9.3)':
     dependencies:
       '@mutexa/liq-math': https://codeload.github.com/mutexa-labs/liq-math/tar.gz/05aa981d69192d4ff6da201b98b2dcdc7388fc87
       viem: 2.57.7(typescript@5.9.3)
     optionalDependencies:
-      hono: 4.13.13
+      hono: 4.13.16
     transitivePeerDependencies:
       - bufferutil
       - typescript
@@ -1475,7 +1475,7 @@ snapshots:
   fsevents@2.3.3:
     optional: true
 
-  hono@4.13.13: {}
+  hono@4.13.16: {}
 
   isows@1.0.7(ws@8.21.0):
     dependencies:

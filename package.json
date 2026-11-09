@@ -69,7 +69,7 @@
   },
   "devDependencies": {
     "@types/node": "^22.19.0",
-    "hono": "^4.11.1",
+    "hono": "^4.13.16",
     "prettier": "^3.9.8",
     "tsup": "^8.5.1",
     "tsx": "^4.21.0",
